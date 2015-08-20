@@ -26,14 +26,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A32634301B7C5CFB00B6B2C3 /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32634301B7C5CFB00B6B2C3 /* Quick Tip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quick Tip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A32634341B7C5CFB00B6B2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A32634351B7C5CFB00B6B2C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A32634371B7C5CFB00B6B2C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A326343A1B7C5CFB00B6B2C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A326343C1B7C5CFB00B6B2C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A326343F1B7C5CFB00B6B2C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		A32634451B7C5CFB00B6B2C3 /* tipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32634451B7C5CFB00B6B2C3 /* Quick TipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quick TipTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A326344A1B7C5CFB00B6B2C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A326344B1B7C5CFB00B6B2C3 /* tipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -68,8 +68,8 @@
 		A32634311B7C5CFB00B6B2C3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A32634301B7C5CFB00B6B2C3 /* tips.app */,
-				A32634451B7C5CFB00B6B2C3 /* tipsTests.xctest */,
+				A32634301B7C5CFB00B6B2C3 /* Quick Tip.app */,
+				A32634451B7C5CFB00B6B2C3 /* Quick TipTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,9 +115,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A326342F1B7C5CFB00B6B2C3 /* tips */ = {
+		A326342F1B7C5CFB00B6B2C3 /* Quick Tip */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A326344F1B7C5CFB00B6B2C3 /* Build configuration list for PBXNativeTarget "tips" */;
+			buildConfigurationList = A326344F1B7C5CFB00B6B2C3 /* Build configuration list for PBXNativeTarget "Quick Tip" */;
 			buildPhases = (
 				A326342C1B7C5CFB00B6B2C3 /* Sources */,
 				A326342D1B7C5CFB00B6B2C3 /* Frameworks */,
@@ -127,14 +127,14 @@
 			);
 			dependencies = (
 			);
-			name = tips;
+			name = "Quick Tip";
 			productName = tips;
-			productReference = A32634301B7C5CFB00B6B2C3 /* tips.app */;
+			productReference = A32634301B7C5CFB00B6B2C3 /* Quick Tip.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A32634441B7C5CFB00B6B2C3 /* tipsTests */ = {
+		A32634441B7C5CFB00B6B2C3 /* Quick TipTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A32634521B7C5CFB00B6B2C3 /* Build configuration list for PBXNativeTarget "tipsTests" */;
+			buildConfigurationList = A32634521B7C5CFB00B6B2C3 /* Build configuration list for PBXNativeTarget "Quick TipTests" */;
 			buildPhases = (
 				A32634411B7C5CFB00B6B2C3 /* Sources */,
 				A32634421B7C5CFB00B6B2C3 /* Frameworks */,
@@ -145,9 +145,9 @@
 			dependencies = (
 				A32634471B7C5CFB00B6B2C3 /* PBXTargetDependency */,
 			);
-			name = tipsTests;
+			name = "Quick TipTests";
 			productName = tipsTests;
-			productReference = A32634451B7C5CFB00B6B2C3 /* tipsTests.xctest */;
+			productReference = A32634451B7C5CFB00B6B2C3 /* Quick TipTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -168,7 +168,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A326342B1B7C5CFB00B6B2C3 /* Build configuration list for PBXProject "tips" */;
+			buildConfigurationList = A326342B1B7C5CFB00B6B2C3 /* Build configuration list for PBXProject "Quick Tip" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -181,8 +181,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A326342F1B7C5CFB00B6B2C3 /* tips */,
-				A32634441B7C5CFB00B6B2C3 /* tipsTests */,
+				A326342F1B7C5CFB00B6B2C3 /* Quick Tip */,
+				A32634441B7C5CFB00B6B2C3 /* Quick TipTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,7 +230,7 @@
 /* Begin PBXTargetDependency section */
 		A32634471B7C5CFB00B6B2C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A326342F1B7C5CFB00B6B2C3 /* tips */;
+			target = A326342F1B7C5CFB00B6B2C3 /* Quick Tip */;
 			targetProxy = A32634461B7C5CFB00B6B2C3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -340,9 +340,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Quick Tip";
 			};
 			name = Debug;
 		};
@@ -350,16 +351,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = tips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Quick Tip";
 			};
 			name = Release;
 		};
 		A32634531B7C5CFB00B6B2C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -370,30 +371,29 @@
 				);
 				INFOPLIST_FILE = tipsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tips.app/tips";
+				PRODUCT_NAME = "Quick TipTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quick Tip.app/Quick Tip";
 			};
 			name = Debug;
 		};
 		A32634541B7C5CFB00B6B2C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = tipsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tips.app/tips";
+				PRODUCT_NAME = "Quick TipTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quick Tip.app/Quick Tip";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A326342B1B7C5CFB00B6B2C3 /* Build configuration list for PBXProject "tips" */ = {
+		A326342B1B7C5CFB00B6B2C3 /* Build configuration list for PBXProject "Quick Tip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A326344D1B7C5CFB00B6B2C3 /* Debug */,
@@ -402,21 +402,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A326344F1B7C5CFB00B6B2C3 /* Build configuration list for PBXNativeTarget "tips" */ = {
+		A326344F1B7C5CFB00B6B2C3 /* Build configuration list for PBXNativeTarget "Quick Tip" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A32634501B7C5CFB00B6B2C3 /* Debug */,
 				A32634511B7C5CFB00B6B2C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A32634521B7C5CFB00B6B2C3 /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
+		A32634521B7C5CFB00B6B2C3 /* Build configuration list for PBXNativeTarget "Quick TipTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A32634531B7C5CFB00B6B2C3 /* Debug */,
 				A32634541B7C5CFB00B6B2C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
