@@ -7,7 +7,8 @@ Time Spent: 3 hours in total
 ## Stories
  * [x] Required: User can add total bill value and see a tip automatically calculated
  * [x] Required: User can change the tip amount using a selector
- * [x] Optional: User can change tip value based on level of service she received
+ * [x] Optional: User can change tip value based on level (Good, Great, Superb) of service she received
+ * [x] Optional: Changed 22% to 25% for Superb tip amount 
  * [x] Optional: Added app icon
  * [x] Optional: Added launch screen
  * [x] Optional: Updated views with custom styles
