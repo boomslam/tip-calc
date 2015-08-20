@@ -14,7 +14,7 @@ Time Spent: 3 hours in total
  
 Walkthrough of all user stories:
 
-![Video Walkthrough](qucik_tips.gif)
+![Video Walkthrough](https://cloud.githubusercontent.com/assets/6727159/9376510/e4037ca6-46c2-11e5-9fe7-ed8e24bb7beb.gif)
  
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
